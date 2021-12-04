@@ -9,16 +9,16 @@ import kotlin.test.assertEquals
 class TestClass {
 
     @Test
-    private fun testQueSumeBien(){
-        val i: Int = 4
+    fun testQueSumeBien(){
+        val i: Int = 2
 
         assertEquals(testeoQueSumeBien(),i)
         //assertEquals(2,i)
     }
 
     @Test
-    private fun testQueResteBien(){
-        val i = 9
+     fun testQueResteBien(){
+        val i = 2
 
         assertEquals(testeoQueResteBien(),i)
         //assertEquals(10,i)
